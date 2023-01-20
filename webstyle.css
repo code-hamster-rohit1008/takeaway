@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  transition: all 0.2s ease-in-out;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 105%;
+}
+#Maindiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#Fieldset{
+	width: 700px;
+	height: 415px;
+	border: 2px solid #dcdcdc;
+	box-shadow: 6px 4px 8px -11px;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: center;
+}
+
+#Legend{
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#Legend:hover{
+	font-size: 120%;
+}
+#Table{
+	height: 350px;
+	margin-right: 0px;
+}
+
+#Data1{
+	padding: 20px;
+	width: 40%;
+	text-align: left;
+	border-right: 2px solid #dcdcdc;
+	background-image: url('logo_resize.png');
+}
+ul{
+	padding: 0px;
+	list-style-type: none;
+	opacity: 0.001;
+}
+
+ul:hover{
+	opacity: 1;
+	transition: none;
+	background-color: white;
+}
+#Data2{
+	padding: 0px 20px 20px 20px;
+	width: 60%;
+}
+#paracontainer{
+	border: ;
+}
+h1{
+	padding-bottom: 5px;
+	padding-left: 7px;
+	text-align: center;
+	margin: 0px;
+	transition: none;
+	background-color: white;
+	height: 50px;
+	color: orangered;
+	text-decoration: underline;
+}
+label{
+	padding: 5px;
+}
+.all_label{
+	font-size: 100%;
+	color: #5a5854;
+	width: 90%;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 10px;
+	display: block;
+	margin-bottom: 10px;
+}
+.all_label:focus, .all_label:hover{
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
+}
+#Parentdiv{
+	text-align: center;
+	position: relative;
+	height: 30px;
+}
+#Otpdiv{
+	position: relative;
+	padding: 15px;
+	height: 40px;
+	text-anchor: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-right: 30px;
+}
+#Submitdiv{
+	display: block;
+	width: 20%;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	height: 20px;
+}
+#Submit:hover, #Submit:focus{
+	background-color: #FF4500;
+	color: white;
+}
+#Submit{
+	width: 100%;
+}
+a{
+	font-size: 110%;
+}
+a:link{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: none;
+	color: grey;
+	font-size: 120%;
+	font-weight: bold;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+#Otp:hover{
+	font-size: 100%;
+	transition: all 0.5 ease-in-out;
+	padding: 5px 0px 0px 15px;
+}
+#SignUP{
+	display: none;
+}
+#extras{
+	opacity: 1;
+}
+#extrasli{
+	display: inline;
+
+}
+#anchorcontainer1{
+	float: left;
+	text-align: left;
+	height: 70px;
+	margin-top: 70px;
+}
+#anchorcontainer2{
+	float: left;
+	text-align: left;
+	height: 70px;
+	margin-top: 50px;
+}
+#Submitdiv2{
+	display: block;
+	width: 23%;
+	float: right;
+	margin-right: 16px;
+	margin-top: 10px;
+	height: 20px;
+	padding: 10px 0px;
+}
+#Submit2{
+	width: 100%;
+}
+#Submit2:hover, #Submit2:focus{
+	background-color: #FF4500;
+	color: white;
+}
+.all_label2{
+	font-size: 100%;
+	color: #5a5854;
+	width: 100%;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 8px;
+	display: block;
+	margin-bottom: 10px;
+}
+.all_label2:focus, .all_label2:hover{
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
+}
+#forgetpassword{
+	display: none;
+}
+.all_label3{
+	font-size: 100%;
+	color: #5a5854;
+	width: 100%;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px;
+	display: block;
+	margin-bottom: 10px;
+}
+.all_label3:focus, .all_label3:hover{
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
+}
+#Submitdiv3{
+	display: block;
+	width: 23%;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	height: 20px;
+}
+#Submit3{
+	width: 100%;
+}
+#Submit3:hover, #Submit3:focus{
+	background-color: #FF4500;
+	color: white;
+}
+#SetForgetpassword{
+	display: none;
+}
